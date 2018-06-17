@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="js/edit.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <section id="From-index">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div  class="From-index">
+                    <form method="post" action="login.php">
+                        <legend>Login</legend>
+                        <?php include('errors.php'); ?>
+                        <label>Username</label>
+                        <input type="text" name="username" >
+                        <label>Password</label>
+                        <input type="password" name="password">
+                        <button type="submit" class="btn" name="login_user">Login</button>
+                        <p>
+                            Not yet a member? <a href="register.php">Sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/edit.js"></script>
+</body>
+</html>

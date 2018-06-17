@@ -1,0 +1,28 @@
+body{
+    background-color: #e7e7e7;
+}
+/*#From-index{*/
+    /*background: url('../imgaes/index/1.jpg') no-repeat  center center;*/
+    /*position: relative;*/
+    /*background-attachment: fixed;*/
+/*}*/
+.From-index{
+    margin-bottom: 30px;
+    height: 447px;
+}
+.carousel-caption {
+    top: 50%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+   width: 70%;
+    margin: auto;
+}
+a.carousel-control.center-slide {
+    left: 42%;
+    top: 35%;
+}
+.sr-only-edit{
+    background-color: #2e6da4;
+
+}
