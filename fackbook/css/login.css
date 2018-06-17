@@ -1,0 +1,132 @@
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.text{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+}
+.text-one{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+#hr{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 36px;
+    margin-bottom: 8px;
+}
+.btn-login{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-login:hover{
+    color: #fff;
+}
+/*header*/
+#from-login{
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+    height: 83px;
+}
+#from-login  .login,.header-logo{
+    padding-top: 13px;
+}
+/*logo*/
+
+.logo{
+    /*background-image: url('/images/icon/f.png');*/
+    /*background-size: auto;*/
+    /*background-position:0 0;*/
+    /*background-repeat: no-repeat;*/
+    height: 55px;
+}
+/*from-login*/
+
+
+.login table{
+    height: 68px;
+}
+.login  table  thead  tr th{
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+}
+.login  table  tbody  tr td {
+    padding-right: 15px;
+}
+.login  table  tbody  tr td  input {
+    font-size: 11px;
+}
+.login  table  tbody  tr td  button{
+    font-size: 12px;
+    color:  #fff;
+    background: #3b5998;
+    border: 1px solid #484848;
+    line-height: 18px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.login  table  tbody  tr td a{
+    color: #9cb4d8;
+    font-weight: normal;
+
+}
+.login  table  tbody  tr td a:hover{
+    text-decoration: underline;
+
+}
+/*main*/
+#main{
+    background: linear-gradient(white, #D3D8E8);
+}
+.user_id,.title{
+    padding: 15px 0 0 0;
+    display: block;
+}
+#main > .user_id > .img_{
+    background-image: url(/images/icon/2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+/*#main > .from-fiedx .form-group {*/
+/*margin-left: -15px;*/
+/*}*/
+
+/*footer*/
+.footer-conten{
+    padding: 15px 0 0 0;
+}
+.footer-conten ul{
+    padding: 0;
+    height: 99px;
+}
+.footer-conten ul li{
+    float: left;
+    list-style: none;
+    border-width: 0 0 0 1px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.footer-conten ul  li a {
+    font-size: 12px;
+
+}
